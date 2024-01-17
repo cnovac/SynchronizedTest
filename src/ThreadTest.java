@@ -1,5 +1,6 @@
 public class ThreadTest extends Thread {
     private String name;
+    private static Object lock = new Object();
 
     public ThreadTest(String name) {
         this.name = name;
@@ -10,7 +11,7 @@ public class ThreadTest extends Thread {
     }
 
     private void increment() {
-        synchronized (this) {
+        synchronized (lock) {
             MyInteger myInteger = MyInteger.getInstance();
             myInteger.a = myInteger.a + 1;
             myInteger.a = myInteger.a + 4;
