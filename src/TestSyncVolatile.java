@@ -20,7 +20,7 @@ public class TestSyncVolatile {
             }
         }
         long stop = System.nanoTime();
-        System.out.println("Processing Time: " + (stop - start));
+        System.out.println("Processing Time(miliseconds): " + ((stop - start)/1000000));
     }
 }
 
