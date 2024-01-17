@@ -1,0 +1,10 @@
+
+j
+java:S1104"MMake a a static final constant or non-public and provide accessors if needed.(ŸÖŒ¶8ÅÍŒ¼Ñ1
+D
+java:S1444"'Make this "public static a" field final(ŸÖŒ¶8ÇÍŒ¼Ñ1
+7
+java:S1220""Move this file to a named package.8ÇÍŒ¼Ñ1
+W
+java:S1161	":Add the "@Override" annotation above this method signature(“–ış8ÎÍŒ¼Ñ1
+L	java:S106"+Replace this use of System.out by a logger.(ÏÈ¢üÿÿÿÿ8ĞÍŒ¼Ñ1
